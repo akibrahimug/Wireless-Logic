@@ -1,0 +1,18 @@
+{
+  "name": "wireless-logic",
+  "version": "1.0.0",
+  "description": "Techincal test",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cheerio": "^1.0.0-rc.10",
+    "mocha": "^9.2.1",
+    "request": "^2.88.2",
+    "save-dev": "^0.0.1-security"
+  }
+}
