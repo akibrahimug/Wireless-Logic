@@ -4,6 +4,7 @@ const request = require('request');
 // Require the cheerio a jquery dependancy for backend
 const cheerio = require('cheerio');
 
+// Initialize a function to handle data request
 const application = () =>  {
     return  request("https://wltest.dns-systems.net/", (error, result, body) => {
     
@@ -38,5 +39,7 @@ const application = () =>  {
 })
 
 }
-application()
+// Call the function
+application();
+// Export for testing
 module.exports.application = application
